@@ -72,7 +72,7 @@ function postOrderTraversal(root) {
     let stack = [];
     let runner = root;
 
-    while (runner !== null) {
+    while (stack.length > 0 || runner !== null) {
         if (runner !== null) {
             stack.push(runner);
             result.unshift(runner.val);
