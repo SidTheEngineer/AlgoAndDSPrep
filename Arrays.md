@@ -14,3 +14,11 @@ for (int i = 1; i < originalArray.length; i++) {
 
 // sumArray = [1, 3, 6, 10, 15, 21, 28]
 ```
+
+## Double Pointer Pattern
+
+(Coming Soon)
+
+## Sliding Window Pattern
+
+(Coming Soon)
